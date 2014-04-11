@@ -7,11 +7,11 @@
 
 @font-face {
     font-family: Jack;
-    src: url(font/font.ttf);
+    src: url(../font/font.ttf);
 }
 
 body {
-    background: url(images/bustina.png), url(images/background.jpg);
+    background: url(../images/bustina.png), url(../images/background.jpg);
     background-size: 200px 200px, auto;
     background-attachment: fixed;
     background-position: bottom right, top left;
@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    background: url(images/bustina.png);
+    background: url(../images/bustina.png);
     background-size: 2em 2em;
     background-repeat: no-repeat;
     background-position: 0 0.1em;
@@ -43,7 +43,7 @@ header {
 }
 
 #githubtext {
-    background-image: url(images/blacktocat.png);
+    background-image: url(../images/blacktocat.png);
     background-repeat: no-repeat;
     padding-left: 1.5em;
     background-position: 2px 2px;
